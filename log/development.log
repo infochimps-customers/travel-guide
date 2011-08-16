@@ -1,0 +1,2674 @@
+
+
+Started GET "/style.css" for 127.0.0.1 at Thu Aug 11 17:16:42 -0500 2011
+
+ActionController::RoutingError (No route matches "/style.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/jquery.autoellipsis-1.0.2.min.js" for 127.0.0.1 at Thu Aug 11 17:34:55 -0500 2011
+
+ActionController::RoutingError (No route matches "/jquery.autoellipsis-1.0.2.min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/jquery.autoellipsis-1.0.2.min.js" for 127.0.0.1 at Thu Aug 11 17:35:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/jquery.autoellipsis-1.0.2.min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/jquery.autoellipsis-1.0.2.min.js" for 127.0.0.1 at Thu Aug 11 17:35:44 -0500 2011
+
+ActionController::RoutingError (No route matches "/jquery.autoellipsis-1.0.2.min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/jquery.autoellipsis-1.0.2.min.js" for 127.0.0.1 at Thu Aug 11 17:35:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/jquery.autoellipsis-1.0.2.min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/jquery.autoellipsis-1.0.2.min.js" for 127.0.0.1 at Thu Aug 11 17:37:31 -0500 2011
+
+ActionController::RoutingError (No route matches "/jquery.autoellipsis-1.0.2.min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/jquery.autoellipsis-1.0.2.min.js" for 127.0.0.1 at Thu Aug 11 17:37:45 -0500 2011
+
+ActionController::RoutingError (No route matches "/jquery.autoellipsis-1.0.2.min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/images/restaurants.png" for 127.0.0.1 at Fri Aug 12 18:21:57 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/restaurants.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/images/restaurants.png" for 127.0.0.1 at Fri Aug 12 18:22:01 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/restaurants.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/images/restaurants.png" for 127.0.0.1 at Fri Aug 12 18:22:25 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/restaurants.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:10:02 -0500 2011
+
+LoadError (no such file to load -- json):
+  app/controllers/application_controller.rb:6
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:17:40 -0500 2011
+
+LoadError (no such file to load -- json):
+  app/controllers/application_controller.rb:4
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:19:43 -0500 2011
+
+LoadError (no such file to load -- json):
+  app/controllers/application_controller.rb:4
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:22:40 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed   in 1ms
+
+TypeError (can't convert Hash into String):
+  app/controllers/application_controller.rb:10:in `initialize'
+  app/controllers/application_controller.rb:10:in `open'
+  app/controllers/application_controller.rb:10:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:24:01 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed   in 923ms
+
+ActionView::MissingTemplate (Missing template application/data with {:formats=>[:html], :locale=>[:en, :en], :handlers=>[:rjs, :rhtml, :rxml, :erb, :builder]} in view paths "/home/jim/travelguide/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.5ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:24:54 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 714ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:26:25 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 929ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:27:05 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed   in 985ms
+
+NoMethodError (undefined method `echo' for #<ApplicationController:0xb62181ec>):
+  app/controllers/application_controller.rb:17:in `data'
+  app/controllers/application_controller.rb:15:in `each'
+  app/controllers/application_controller.rb:15:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.8ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:27:12 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 728ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:27:22 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 726ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:27:41 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 1247ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:35:19 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 788ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:35:38 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (381.0ms)
+Completed   in 2078ms
+
+ActionView::Template::Error (undefined local variable or method `results' for #<#<Class:0xb61c4e34>:0xb61c24cc>):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <% @result[results].each do %>
+    8: 
+    9: hi!<br/>
+    10: 
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__619836508_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (193.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (207.3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:35:54 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (1.3ms)
+Completed   in 699ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <% @result[0].each do %>
+    8: 
+    9: hi!<br/>
+    10: 
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__619317668_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (195.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (207.7ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:36:36 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (14.6ms)
+Completed   in 673ms
+
+ActionView::Template::Error (undefined local variable or method `result' for #<#<Class:0xb62ac2d4>:0xb62ab564>):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <% result.each do %>
+    8: 
+    9: hi!<br/>
+    10: 
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__619359308_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:36:44 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 584ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:41:15 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 677ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:41:26 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (395.2ms)
+Completed 200 OK in 1017ms (Views: 401.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:03 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (23.0ms)
+Completed   in 693ms
+
+ActionView::Template::Error (undefined method `results' for #<Hash:0xb6181f44>):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <%= @result.results[0] %>
+    8: 
+    9: 
+    10: <%= @result.to_json %>
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__619302218_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (191.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (203.4ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:08 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (21.7ms)
+Completed   in 721ms
+
+ActionView::Template::Error (undefined method `results' for #<Hash:0xb6150c78>):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <%= @result.results[0] %>
+    8: 
+    9: 
+    10: <%= @result.to_json %>
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__619332848_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (189.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (201.4ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:14 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (371.1ms)
+Completed   in 943ms
+
+ActionView::Template::Error (undefined local variable or method `results' for #<#<Class:0xb614aabc>:0xb6146b60>):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <%= @result[results][0] %>
+    8: 
+    9: 
+    10: <%= @result.to_json %>
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__620089608_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (188.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (199.8ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:22 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (1.1ms)
+Completed   in 675ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    4:   # -- abstract
+    5: %>
+    6: 
+    7: <%= @result[0][0] %>
+    8: 
+    9: 
+    10: <%= @result.to_json %>
+  app/views/application/data.html.erb:7:in `_app_views_application_data_html_erb__423836383__619306598_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (221.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (234.4ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:30 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (400.7ms)
+Completed 200 OK in 980ms (Views: 407.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:43 -0500 2011
+  Processing by ApplicationController#data as HTML
+ERROR: compiling _app_views_application_data_html_erb__423836383__619356558_0 RAISED compile error
+/home/jim/travelguide/app/views/application/data.html.erb:19: unterminated string meets end of file
+/home/jim/travelguide/app/views/application/data.html.erb:19: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_application_data_html_erb__423836383__619356558_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "application/data";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;     
+  # For each result, lets get 
+  # -- Title
+  # -- abstract
+
+@output_buffer.safe_concat('
+');@output_buffer.append= ( @result['results'][0] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+
+');@output_buffer.append= ( #@result.to_json );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+
+
+
+
+
+
+
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/jim/travelguide/app/views/application/data.html.erb:19:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_view/template.rb:134:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications.rb:54:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_view/template.rb:127:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_view/render/rendering.rb:59:in `_render_template'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications.rb:52:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications.rb:52:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_view/render/rendering.rb:56:in `_render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_view/render/rendering.rb:26:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/rendering.rb:93:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/rendering.rb:17:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.8/gems/activerecord-3.0.6/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/base.rb:150:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/callbacks.rb:436:in `_run__31616329__process_action__540503131__callbacks'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/callbacks.rb:410:in `send'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/callbacks.rb:94:in `send'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications.rb:52:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/notifications.rb:52:in `instrument'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/base.rb:119:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/abstract_controller/rendering.rb:41:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal.rb:138:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_controller/metal.rb:178
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/usr/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/usr/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/usr/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-3.0.6/lib/active_record/query_cache.rb:32:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-3.0.6/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-3.0.6/lib/active_record/query_cache.rb:12:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-3.0.6/lib/active_record/query_cache.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-3.0.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/rack/logger.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/activesupport-3.0.6/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/static.rb:30:in `call'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/application.rb:168:in `call'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/application.rb:77:in `send'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/application.rb:77:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/rack/log_tailer.rb:14:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/handler/webrick.rb:13:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.2.3/lib/rack/server.rb:217:in `start'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/commands/server.rb:65:in `start'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/commands.rb:30
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/commands.rb:27:in `tap'
+/usr/lib/ruby/gems/1.8/gems/railties-3.0.6/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered application/data.html.erb within layouts/application (1.5ms)
+Completed   in 689ms
+
+ActionView::Template::Error (compile error
+/home/jim/travelguide/app/views/application/data.html.erb:19: unterminated string meets end of file
+/home/jim/travelguide/app/views/application/data.html.erb:19: syntax error, unexpected $end, expecting ')'):
+  app/views/application/data.html.erb:19:in `compile'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (210.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (221.9ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:42:48 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 656ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:43:32 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 660ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:44:24 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 705ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:44:40 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 651ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:46:45 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 668ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:48:07 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 1033ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 18:48:33 -0500 2011
+  Processing by ApplicationController#data as HTML
+Rendered application/data.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 689ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:05:24 -0500 2011
+  Processing by ApplicationController#data as 
+Rendered application/data.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 732ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:05:58 -0500 2011
+  Processing by ApplicationController#data as 
+Rendered application/data.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 627ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:07:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 680ms
+
+ActionView::MissingTemplate (Missing template application/data with {:formats=>[:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json], :locale=>[:en, :en], :handlers=>[:rjs, :rhtml, :rxml, :erb, :builder]} in view paths "/home/jim/travelguide/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.3ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:08:01 -0500 2011
+  Processing by ApplicationController#data as 
+Rendered application/data.js within layouts/application (6.2ms)
+Completed 200 OK in 609ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:10:27 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 760ms
+
+ActionView::MissingTemplate (Missing template application/json with {:formats=>[:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json], :locale=>[:en, :en], :handlers=>[:rjs, :rhtml, :rxml, :erb, :builder]} in view paths "/home/jim/travelguide/app/views"):
+  app/controllers/application_controller.rb:15:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.3ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:11:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1296ms (Views: 413.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:12:45 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1252ms (Views: 418.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:14:34 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1435ms (Views: 472.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:14:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1499ms (Views: 489.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:15:40 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1386ms (Views: 339.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data" for 127.0.0.1 at Sun Aug 14 19:17:49 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 1310ms (Views: 287.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:18:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1549ms (Views: 536.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:20:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1288ms (Views: 352.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:20:55 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1326ms (Views: 470.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:22:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1479ms (Views: 494.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:23:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1474ms (Views: 539.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:24:30 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1376ms (Views: 328.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:25:12 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1355ms (Views: 396.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:28:45 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1626ms (Views: 603.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:30:01 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1582ms (Views: 472.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:30:36 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1531ms (Views: 435.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:32:16 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1341ms (Views: 450.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:33:36 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1592ms (Views: 707.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:34:33 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1493ms (Views: 525.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:35:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1384ms (Views: 436.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:35:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1352ms (Views: 368.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:36:29 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1492ms (Views: 459.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:37:23 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1374ms (Views: 435.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:37:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1471ms (Views: 532.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:38:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1556ms (Views: 648.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:38:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1288ms (Views: 433.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:40:03 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1197ms (Views: 460.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:41:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1205ms (Views: 361.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:41:29 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1218ms (Views: 413.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:48:01 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1266ms (Views: 467.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:48:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1294ms (Views: 588.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:53:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1583ms (Views: 489.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:53:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1225ms (Views: 527.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:54:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1722ms (Views: 648.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:55:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1219ms (Views: 509.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:57:09 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1229ms (Views: 582.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:57:31 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 1ms
+
+TypeError (can't convert Float into String):
+  app/controllers/application_controller.rb:17:in `+'
+  app/controllers/application_controller.rb:17:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (29.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.3ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 19:58:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 1ms
+
+TypeError (can't convert Float into String):
+  app/controllers/application_controller.rb:20:in `+'
+  app/controllers/application_controller.rb:20:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (29.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.2ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:00:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 3ms
+
+TypeError (can't convert Float into String):
+  app/controllers/application_controller.rb:25:in `+'
+  app/controllers/application_controller.rb:25:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (296.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (335.9ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:00:50 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 163ms
+
+OpenURI::HTTPError (400 Bad Request):
+  app/controllers/application_controller.rb:31:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (26.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.4ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:01:34 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 196ms
+
+OpenURI::HTTPError (400 Bad Request):
+  app/controllers/application_controller.rb:31:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (30.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (53.4ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:01:54 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1414ms (Views: 524.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:02:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 174ms
+
+OpenURI::HTTPError (400 Bad Request):
+  app/controllers/application_controller.rb:31:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.5ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:03:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1231ms (Views: 474.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:03:26 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 1ms
+
+TypeError (can't convert Float into String):
+  app/controllers/application_controller.rb:25:in `+'
+  app/controllers/application_controller.rb:25:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.1ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:03:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1265ms (Views: 475.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:04:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1679ms (Views: 454.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:09:12 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1420ms (Views: 591.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:09:31 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1382ms (Views: 603.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:10:03 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1162ms (Views: 413.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:18:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1190ms (Views: 481.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:21:30 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1346ms (Views: 526.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:22:23 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1040ms (Views: 336.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Sun Aug 14 20:31:16 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1461ms (Views: 651.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:54:29 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 804ms (Views: 160.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:56:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1281ms (Views: 221.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:56:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 888ms (Views: 227.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:57:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 830ms (Views: 203.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:57:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 832ms (Views: 214.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:57:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 856ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:58:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 824ms (Views: 174.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:59:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 938ms (Views: 209.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 09:59:56 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1041ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 10:00:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 995ms (Views: 169.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 10:09:45 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 874ms (Views: 218.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 10:15:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1048ms (Views: 231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 10:20:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 877ms (Views: 169.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 10:21:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 902ms (Views: 234.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 10:27:22 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 859ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:49:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 974ms (Views: 243.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:49:59 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 970ms (Views: 179.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:50:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 826ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:50:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 791ms (Views: 161.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:51:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1278ms (Views: 238.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:52:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 3363ms (Views: 156.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:53:10 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1923ms (Views: 156.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:53:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2109ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:54:11 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 10303ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:54:30 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1951ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:54:50 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1723ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:55:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2186ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:56:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1832ms (Views: 144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:57:04 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1374ms (Views: 147.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 11:59:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1675ms (Views: 223.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:00:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2421ms (Views: 145.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:01:18 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1708ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:09:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1529ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:09:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1722ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:16:44 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 861ms (Views: 214.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:17:39 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 858ms (Views: 224.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:21:54 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 913ms (Views: 238.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:22:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1350ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:23:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 842ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:23:38 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 831ms (Views: 223.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:23:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1466ms (Views: 322.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:24:23 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 780ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:24:55 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 760ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:25:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 890ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:49:10 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 926ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:49:44 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 5983ms (Views: 154.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:52:36 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1101ms (Views: 220.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:52:46 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1023ms (Views: 205.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:53:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 942ms (Views: 230.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:54:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 896ms (Views: 192.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:54:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1081ms (Views: 296.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:56:39 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1458ms (Views: 175.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:57:55 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1091ms (Views: 229.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:58:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 9709ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 12:59:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2185ms (Views: 159.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:02:33 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1227ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:03:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1845ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:03:53 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1748ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:04:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1703ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:05:34 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2040ms (Views: 207.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:06:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1767ms (Views: 207.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:07:32 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1598ms (Views: 204.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:10:04 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1870ms (Views: 207.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:10:54 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1914ms (Views: 209.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:12:17 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1874ms (Views: 200.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:13:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1855ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:13:59 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1940ms (Views: 153.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:14:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1592ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:15:33 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1882ms (Views: 157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:16:03 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1805ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:16:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2818ms (Views: 149.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:17:10 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2021ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:18:31 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2240ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:19:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1930ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:19:34 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2103ms (Views: 206.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:19:46 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2720ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:20:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1969ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:20:28 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1827ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:20:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1629ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:21:09 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1612ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:21:38 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1601ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:22:09 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2036ms (Views: 148.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:22:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1697ms (Views: 158.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:23:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1868ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:23:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2183ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:35:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 953ms (Views: 213.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:36:44 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1067ms (Views: 223.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:38:04 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 926ms (Views: 218.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:38:32 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 948ms (Views: 251.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 13:38:43 -0500 2011
+
+ActionController::RoutingError (No route matches "/data"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:39:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 893ms (Views: 194.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 13:39:48 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 939ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:40:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 942ms (Views: 211.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 13:40:42 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 982ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=43.653524&lng=-79.3839069" for 127.0.0.1 at Mon Aug 15 13:41:09 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-79.3839069", "lat"=>"43.653524"}
+Completed 200 OK in 1097ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=51.5001524&lng=-0.12623619999999391" for 127.0.0.1 at Mon Aug 15 13:41:25 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-0.12623619999999391", "lat"=>"51.5001524"}
+Completed 200 OK in 778ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:48:03 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 923ms (Views: 192.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 13:48:10 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 983ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=41.4994954&lng=-81.6954088" for 127.0.0.1 at Mon Aug 15 13:48:15 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-81.6954088", "lat"=>"41.4994954"}
+Completed 200 OK in 2443ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=40.7143528&lng=-74.0059731" for 127.0.0.1 at Mon Aug 15 13:48:44 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-74.0059731", "lat"=>"40.7143528"}
+Completed 200 OK in 2654ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:49:45 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2365ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=41.4994954&lng=-81.6954088" for 127.0.0.1 at Mon Aug 15 13:49:53 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-81.6954088", "lat"=>"41.4994954"}
+Completed 200 OK in 1740ms (Views: 180.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:50:58 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1816ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=42.3584308&lng=-71.0597732" for 127.0.0.1 at Mon Aug 15 13:51:09 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-71.0597732", "lat"=>"42.3584308"}
+Completed 200 OK in 1846ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:51:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1676ms (Views: 145.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=42.3584308&lng=-71.0597732" for 127.0.0.1 at Mon Aug 15 13:51:47 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-71.0597732", "lat"=>"42.3584308"}
+Completed 200 OK in 1758ms (Views: 186.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:52:11 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1563ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=25.7889689&lng=-80.22643929999998" for 127.0.0.1 at Mon Aug 15 13:52:15 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-80.22643929999998", "lat"=>"25.7889689"}
+Completed 200 OK in 1788ms (Views: 184.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:52:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1475ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:53:28 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1603ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:55:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1798ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=51.5001524&lng=-0.12623619999999391" for 127.0.0.1 at Mon Aug 15 13:55:34 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-0.12623619999999391", "lat"=>"51.5001524"}
+Completed 200 OK in 1196ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:56:38 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1982ms (Views: 175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:57:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1832ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 13:57:46 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1522ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:00:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1603ms (Views: 155.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:01:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2025ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:01:20 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1836ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:01:33 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1748ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:01:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1989ms (Views: 201.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:02:55 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1750ms (Views: 202.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:03:56 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2468ms (Views: 211.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:04:22 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1878ms (Views: 177.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:05:39 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1652ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:06:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1898ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:06:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1887ms (Views: 155.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:06:33 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1914ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:06:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1696ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=30.267153&lng=-97.74306079999997" for 127.0.0.1 at Mon Aug 15 14:06:57 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-97.74306079999997", "lat"=>"30.267153"}
+Completed 200 OK in 1473ms (Views: 145.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=30.267153&lng=-97.74306079999997" for 127.0.0.1 at Mon Aug 15 14:06:58 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-97.74306079999997", "lat"=>"30.267153"}
+Completed 200 OK in 1614ms (Views: 203.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=30.267153&lng=-97.74306079999997" for 127.0.0.1 at Mon Aug 15 14:07:06 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-97.74306079999997", "lat"=>"30.267153"}
+Completed 200 OK in 1672ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:08:38 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2450ms (Views: 232.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=42.3584308&lng=-71.0597732" for 127.0.0.1 at Mon Aug 15 14:08:49 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-71.0597732", "lat"=>"42.3584308"}
+Completed 200 OK in 1868ms (Views: 235.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:18:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 398ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=51.5001524&lng=-0.12623619999999391" for 127.0.0.1 at Mon Aug 15 14:19:03 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-0.12623619999999391", "lat"=>"51.5001524"}
+Completed 200 OK in 1814ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:19:45 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 820ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:21:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 523ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:21:11 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 990ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=40.7717655&lng=-73.21108500000003" for 127.0.0.1 at Mon Aug 15 14:21:28 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-73.21108500000003", "lat"=>"40.7717655"}
+Completed 200 OK in 292ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=25.03428&lng=-77.39627999999999" for 127.0.0.1 at Mon Aug 15 14:21:46 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-77.39627999999999", "lat"=>"25.03428"}
+Completed 200 OK in 249ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=51.5001524&lng=-0.12623619999999391" for 127.0.0.1 at Mon Aug 15 14:21:52 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-0.12623619999999391", "lat"=>"51.5001524"}
+Completed 200 OK in 1591ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:22:28 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 621ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:23:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 475ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:23:28 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 709ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:24:11 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 402ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:25:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 891ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.09024&lng=-95.71289100000001" for 127.0.0.1 at Mon Aug 15 14:25:42 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-95.71289100000001", "lat"=>"37.09024"}
+Completed 200 OK in 297ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=35.6894875&lng=139.69170639999993" for 127.0.0.1 at Mon Aug 15 14:25:50 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"139.69170639999993", "lat"=>"35.6894875"}
+Completed 200 OK in 1894ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:26:40 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 504ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:26:47 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 1604ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:28:56 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 636ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:33:31 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 358ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:37:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 361ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:38:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 597ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=41.4994954&lng=-81.6954088" for 127.0.0.1 at Mon Aug 15 14:41:45 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-81.6954088", "lat"=>"41.4994954"}
+Completed 200 OK in 587ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=30.267153&lng=-97.74306079999997" for 127.0.0.1 at Mon Aug 15 14:41:58 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-97.74306079999997", "lat"=>"30.267153"}
+Completed 200 OK in 365ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:43:46 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 445ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:44:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 332ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:44:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 419ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:46:16 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 401ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:46:26 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 728ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:46:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 333ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:47:10 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 478ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:47:19 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 358ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:47:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 353ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=51.5001524&lng=-0.12623619999999391" for 127.0.0.1 at Mon Aug 15 14:48:06 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-0.12623619999999391", "lat"=>"51.5001524"}
+Completed 200 OK in 1445ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:48:17 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 353ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:49:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 341ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:49:56 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 1225ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:50:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 358ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:50:58 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 808ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:51:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 427ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:51:20 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 878ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:52:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 343ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:52:31 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 1148ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:52:57 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 423ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:53:02 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 946ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:53:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 343ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Mon Aug 15 14:53:27 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 827ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Aug 15 14:55:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 323ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=41.4994954&lng=-81.6954088" for 127.0.0.1 at Mon Aug 15 14:56:05 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-81.6954088", "lat"=>"41.4994954"}
+Completed 200 OK in 529ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 12:53:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 338ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:00:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 376ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=32.802955&lng=-96.769923" for 127.0.0.1 at Tue Aug 16 13:00:04 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-96.769923", "lat"=>"32.802955"}
+Completed 200 OK in 482ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:04:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 432ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:06:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 374ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:08:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 333ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:09:22 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1408ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:13:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1407ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:13:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 332ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:21:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 420ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:23:23 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 406ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:26:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 337ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:26:53 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 439ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:27:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 828ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:27:29 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:27:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 349ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:28:12 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1442ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:30:38 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 317ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:31:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1180ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:31:36 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 327ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:31:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:32:01 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 315ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:32:10 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 355ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:33:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 333ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 13:57:06 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 314ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:03:04 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 787ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:07:16 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 790ms (Views: 194.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data?lat=37.7749295&lng=-122.41941550000001" for 127.0.0.1 at Tue Aug 16 14:07:28 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 937ms (Views: 228.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:08:09 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1169ms (Views: 229.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:09:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1286ms (Views: 206.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:11:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1108ms (Views: 219.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:23:46 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 330ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:25:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 498ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:27:04 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 377ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:27:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 458ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:28:46 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 353ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:29:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 304ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:29:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 354ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:36:03 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 336ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Tue Aug 16 14:37:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 315ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:46:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:46:29 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-122.41941550000001", "lat"=>"37.7749295"}
+Completed 200 OK in 580ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:47:27 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 1ms
+
+NoMethodError (undefined method `read' for #<String:0xb609075c>):
+  app/controllers/application_controller.rb:28:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.7ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:47:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed   in 1ms
+
+NoMethodError (undefined method `read' for #<String:0xb5f87b80>):
+  app/controllers/application_controller.rb:29:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Tue Aug 16 14:48:13 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed   in 1ms
+
+NoMethodError (undefined method `read' for #<String:0xb5e87118>):
+  app/controllers/application_controller.rb:29:in `data'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Tue Aug 16 14:48:31 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 315ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:48:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 319ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:48:53 -0500 2011
+  Processing by ApplicationController#data as 
+  Parameters: {"lng"=>"-0.12623619999999391", "lat"=>"51.5001524"}
+Completed 200 OK in 990ms (Views: 175.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:57:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 371ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:57:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 312ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:57:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 326ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:58:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 321ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:58:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 327ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:58:43 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 318ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:58:51 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 329ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:59:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 385ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:59:10 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 345ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:59:38 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 328ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 14:59:53 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 327ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:08:32 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 347ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:10:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 333ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:10:45 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 359ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:12:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 402ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:12:30 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 455ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:13:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 315ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:13:31 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 414ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:15:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 395ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:24:17 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 362ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:25:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 317ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:25:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 315ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:26:01 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 382ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 15:26:56 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 341ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:28:03 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 421ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:31:26 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 364ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:31:44 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 462ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:32:07 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 398ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:33:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 320ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:34:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 333ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:34:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 345ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:34:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 323ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:35:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 310ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:36:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 314ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:36:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 312ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:40:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 427ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:40:40 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:40:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 312ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:42:04 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:42:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 365ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:42:33 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:42:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 475ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:52:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 310ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:52:58 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 308ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:53:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 350ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:53:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 307ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:53:48 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 341ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:54:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 313ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:54:16 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 307ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:55:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 322ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:55:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 311ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:56:25 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 319ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:56:39 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 348ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:56:56 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 337ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:57:34 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 304ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:57:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 351ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:57:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 313ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:58:01 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 331ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:58:08 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 416ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:59:29 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 402ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:59:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 318ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 17:59:44 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 304ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:00:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 317ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:00:53 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 308ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:01:01 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 525ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:01:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1332ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:01:30 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 665ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:01:42 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 447ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:01:53 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 682ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:01:58 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 829ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:02:57 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 14396ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:03:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 4010ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:05:00 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 16854ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:05:17 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 2540ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:05:26 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1047ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:05:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 33259ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:06:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1153ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:06:15 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 635ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:06:23 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 15763ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:07:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 27487ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:07:52 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 12574ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:08:05 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 702ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:08:13 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 800ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:08:28 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 8789ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:08:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1396ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:08:57 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 30427ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:09:28 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 598ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:12:41 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 18325ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:14:32 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 13828ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:14:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 982ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:21:02 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1090ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:21:11 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 16268ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:21:30 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 20073ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:21:50 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 46526ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:22:37 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 49208ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:23:26 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 21517ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:23:47 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 33767ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:24:21 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 33817ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:24:55 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 21567ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:25:17 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 32580ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:25:49 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 30479ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:26:20 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 16784ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:26:36 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 18700ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:26:55 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 29226ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:27:24 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 44444ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:28:09 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 25833ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:28:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 39188ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:29:14 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1903ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:29:16 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 853ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:29:17 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 1085ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:29:18 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 819ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:34:35 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 24282ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/data" for 127.0.0.1 at Tue Aug 16 18:34:59 -0500 2011
+  Processing by ApplicationController#data as 
+Completed 200 OK in 39522ms (Views: 18.7ms | ActiveRecord: 0.0ms)
