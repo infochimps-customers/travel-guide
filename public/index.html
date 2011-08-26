@@ -5,9 +5,13 @@
 
 <link href="http://keepstream.com/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="stylesheets/jquery-ui-1.8.7.custom.css" media="screen" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&callback"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js" type="text/javascript"></script>
+
 <script src="javascripts/jquery.autoellipsis-1.0.2.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="javascripts/infobubble.js"></script>
 
@@ -19,22 +23,25 @@
   var map;
   var markers = [];
   var infoBubbles = [];
-  var infoWindows = [];
   var contentRows = [];
+  var categories = [];
+  var lat = 30.26;
+  var lng = -97.73;
+  var currentCategory = 'h';
+  var currentQuery = 'museum';
+  var currentSource = '';
 
 
   $(document).ready(function() {
-    //This doesn't work, but it SHOULD limit the text for the popups :X
-    //$('.infobubble-content p').ellipsis();     
-
+    
     initialize();
 
     $('#sidebar .content-row').click( function() {
-      $('#sidebar .content-row').addClass("selected");    
+      $('#sidebar .content-row').addClass('selected');    
     });    
 
     // On enter, submit the form
-    $("#address").keydown(function (e) {
+    $('#address').keydown(function (e) {
       if (e.which == 13) {
         codeAddress();
         return false;
@@ -43,10 +50,83 @@
       }
     });
     
-    //
-    $('#selector').click( function() {
+    //Datepicker
+    $('#from').datepicker();
+    $('#to').datepicker();
+    
+    //Dropdown
+    $('#selector').mouseup( function(e) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
       $('#dropdown').toggle();
+      $('#selector').toggleClass('selected');
+    });    
+    $('#dropdown').mouseup(function() {
+      $('#dropdown').toggle();
+    });    
+    $(document).mouseup(function(e) {
+       e.stopImmediatePropagation();
+      $('#dropdown').hide();
+      $('#selector').removeClass('selected');
     });
+    
+    $('#dropdown .entertainment').mouseup(function() {
+      $('#selector .text').removeClass().addClass('text').addClass('entertainment');      
+      $('#selector .text').html('<span class="icon"></span>Entertainment');    
+    });
+
+    $('#dropdown .museums').mouseup(function() {
+      $('#selector .text').removeClass().addClass('text').addClass('museums');      
+      $('#selector .text').html('<span class="icon"></span>Museums');  
+      $('#sidebar .recommendations').empty();        
+      //$.post('/data', { lat: lat, lng: lng, query: 'museum' }, function(data) { parseData(data,'h'); });
+      clearOverlaysExcept('h');
+      currentQuery = 'museum';
+      currentSource = '';
+      currentCategory = 'h';      
+      $.post('/data', { lat: lat, lng: lng, query: currentQuery, source: currentSource }, function(data) {
+        parseData(data,currentCategory,currentSource);      
+      });       
+    });
+
+    $('#dropdown .nightlife').mouseup(function() {
+      $('#selector .text').removeClass().addClass('text').addClass('nightlife');      
+      $('#selector .text').html('<span class="icon"></span>Nightlife');    
+      $('#sidebar .recommendations').empty();        
+      //$.post('/data', { lat: lat, lng: lng, source: 'foursquare' }, function(data) { parseData(data,'n','foursquare'); });
+      clearOverlaysExcept('n');
+      currentQuery = '';
+      currentSource = 'foursquare';
+      currentCategory = 'n';
+      $.post('/data', { lat: lat, lng: lng, query: currentQuery, source: currentSource }, function(data) {
+        parseData(data,currentCategory,currentSource);      
+      });  
+    });
+
+    $('#dropdown .outdoors').mouseup(function() {
+      $('#selector .text').removeClass().addClass('text').addClass('outdoors');      
+      $('#selector .text').html('<span class="icon"></span>Outdoors');   
+      $('#sidebar .recommendations').empty();        
+      //$.post('/data', { lat: lat, lng: lng, query: 'park' }, function(data) { parseData(data,'o'); });
+      clearOverlaysExcept('o');
+      currentQuery = 'park';
+      currentSource = '';
+      currentCategory = 'o';
+      $.post('/data', { lat: lat, lng: lng, query: currentQuery, source: currentSource }, function(data) {
+        parseData(data,currentCategory,currentSource);      
+      });  
+    });
+    
+    $('#dropdown .restaurants').mouseup(function() {
+      $('#selector .text').removeClass().addClass('text').addClass('restaurants');      
+      $('#selector .text').html('<span class="icon"></span>Restaurants');    
+    });
+    
+    $('#dropdown .shopping').mouseup(function() {
+      $('#selector .text').removeClass().addClass('text').addClass('shopping');      
+      $('#selector .text').html('<span class="icon"></span>Shopping'); 
+    });            
+
 
   });
   
@@ -54,7 +134,7 @@
     geocoder = new google.maps.Geocoder();
     var latlng = new google.maps.LatLng(30.26, -97.73);
     var myOptions = {
-      zoom: 12,
+      zoom: 13,
       center: latlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -68,150 +148,222 @@
     });
    
     //Add markers to the map!     
-    $.post('/data', function(data) {
-      
-      // data['results'].length 
-      for (var i = 0; i < data['results'].length; i++) {      
-       
-        var title = data['results'][i]['title'];
-        var description = data['results'][i]['abstract'];       
-        if (description.length > 400) { description = data['results'][i]['abstract'].substr(0,400) + '...'; }
-        var url = data['results'][i]['url'];        
-        addMarker(data['results'][i]['coordinates'][1],data['results'][i]['coordinates'][0],title,'h',description,url);
-
-      }
-      
-    });
+    $.post('/data', { lat: lat, lng: lng, query: 'museum' }, function(data) {
+      parseData(data, 'h');      
+    });   
     
+    //Load more on move
+    google.maps.event.addListener(map, 'tilesloaded', updateMap);    
   }
   
+  
+  //Update the map
+  function updateMap(latlng) {  
+    if (typeof(latlng) == "undefined") { 
+      latlng = map.getCenter(); 
+    }
+    lat = latlng.lat();
+    lng = latlng.lng();
+    
+    $.post('/data', { lat: lat, lng: lng, query: currentQuery, source: currentSource }, function(data) {
+      parseData(data,currentCategory,currentSource);      
+    });     
+  }  
+
+  // Hide all overlays except
+  function clearOverlaysExcept(category) {
+    
+    if (markers) {
+      for (i in markers) {
+        if (categories[i] != category) {
+          markers[i].setVisible(false);
+        }
+      } 
+    }
+  
+  
+  
+  }  
   
   // Removes the overlays from the map, but keeps them in the array
   function clearOverlays() {
     if (markers) {
       for (i in markers) {
-        markers[i].setMap(null);
+        //markers[i].setMap(null);
+
       }
     }
-  }
-  
+    if (infoBubbles) {
+      for (i in infoBubbles) {
+        infoBubbles[i].setMap(null);
+      }
+    }
+  }  
 
+  //Address change
   function codeAddress() {
     var address = document.getElementById("address").value;
     geocoder.geocode( { 'address': address}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
         map.setCenter(results[0].geometry.location);
-        map.setZoom(12);
+        map.setZoom(13);
         
-        //requestUrl = "/data?lat=" + results[0].geometry.location.lat() + "&lng=" + results[0].geometry.location.lng();
-
         $('#sidebar .recommendations').empty();        
-        //alert (requestUrl);
-        
         clearOverlays();
+        lat = results[0].geometry.location.lat();
+        lng = results[0].geometry.location.lng();
         
-        $.post('/data', { lat: results[0].geometry.location.lat(), lng: results[0].geometry.location.lng() }, function(data) {
-          
-          for (var i = 0; i < data['results'].length; i++) { 
-            var title = data['results'][i]['title'];
-            var description = data['results'][i]['abstract'];
-            var url = data['results'][i]['url'];            
-            addMarker(data['results'][i]['coordinates'][1],data['results'][i]['coordinates'][0],title,'h',description,url);         
-          }
-        });
+        //$('#selector .text').removeClass().addClass('text').addClass('museums');      
+        //$('#selector .text').html('<span class="icon"></span>Museums');           
+
+
+        $.post('/data', { lat: lat, lng: lng, query: currentQuery, source: currentSource }, function(data) {
+          parseData(data,currentCategory,currentSource);      
+        }); 
+        clearOverlaysExcept(currentCategory);
         
+      
       } else {
-        alert("Geocode was not successful for the following reason: " + status);
+        alert('I wasn\'t able to find that location, please try another search.');
       }
     });
   }
-
-  function addMarker(lat,lng,title,type,description,url) {
-    var myLatlng = new google.maps.LatLng(lat, lng);
-
-    // change to javascript switch statement    
-    if (type == "e") {
-      var restaurantsImage = 'images/entertainment.png';
-    } else if (type == "h") {
-      var restaurantsImage = 'images/historical.png';
-    } else if (type == "n") {
-      var restaurantsImage = 'images/nightlife.png';
-    } else if (type == "o") {
-      var restaurantsImage = 'images/outdoor.png';
-    } else if (type == "r") {
-      var restaurantsImage = 'images/restaurant.png';
-    } else if (type == "s") {
-      var restaurantsImage = 'images/shopping.png';  
-    } else {
-     var restaurantsImage = 'images/historical.png';
-    }
-    
-    // Marker
-    var marker = new google.maps.Marker({
-	    position: myLatlng,
-	    title:title,
-	    icon: restaurantsImage
-    });
-    marker.setMap(map);    
-    markers.push(marker);  
-
-    // infoWindow
-    //infoDescription = '<div class="infobubble-content"><h3>' + title + '</h3><p>' + description + '</p></div><div class="infobubble-footer"><a href="' + url + '" target="_blank">Read more on Wikipedia &raquo;</a></div>';    
-    //var infoWindow = new google.maps.InfoWindow({
-    //    content: infoDescription
-    //});
-    //infoWindows.push(infoWindow);
-
-    // infoBubble
-    infoDescription = '<div class="infobubble-content"><h3>' + title + '</h3><p>' + description + '</p></div><div class="infobubble-footer"><a href="' + url + '" target="_blank">Read more on Wikipedia &raquo;</a></div>';    
-    var infoBubble = new InfoBubble({
-      minWidth:420,
-      maxWidth:420,
-      minHeight:240,
-      maxHeight:240,      
-      padding: 0,
-      backgroundColor: '#ffffff',
-      borderRadius: 8,
-      arrowSize: 10,
-      borderWidth: 1,
-      borderColor: '#dddddd',
-      arrowPosition: 50,
-      shadowStyle: 3,
-      arrowColor: '#f4f4f4',
-      content: infoDescription
-    });  
-    infoBubbles.push(infoBubble);
-
-    // Sidebar content  
-    var contentRow = '<div class="content-row"><p><strong>' + title + '</strong>' + description + '</p></div>';    
-    $(contentRow).appendTo($('#sidebar .recommendations')).children('p').ellipsis().click( function() {
-      for (var i = 0; i < infoBubbles.length; i++) {  
-        infoBubbles[i].close();
-      }      
-      if ( $(this).hasClass('selected') ) {
-        $(this).removeClass('selected');  
-        infoBubble.close();
-      } else {
-        infoBubble.open(map,marker);
-        $('#sidebar .content-row p').removeClass('selected');  
-        $(this).addClass('selected');  
+  
+  function parseData(data,cat,source) {
+    if (source == 'foursquare') {
+      for (var i = 0; i < data['results'].length; i++) {
+        var title = data['results'][i]['name'];
+        var featureCode = data['results'][i]['feature_codes']['foursquare_feature_code'];
+        var subCategory = featureCode.substring(featureCode.lastIndexOf(':', featureCode.indexOf(':'))+1);
+        var description = title + ' is a ' + subCategory.substring(0,subCategory.length-1); 
+        var category = cat;
+        var id = data.results[i].md5id;
+        var url = 'https://foursquare.com/venue/' + data['results'][i]['_domain_id'];
+        
+        if ( featureCode.substring(0,featureCode.indexOf(':')) == 'Nightlife Spots') {
+          addMarker(data['results'][i]['coordinates'][1],data['results'][i]['coordinates'][0],title,category,description,url,id);  
+        }  
       }
-    });  
-    contentRows.push(contentRow);
+    }
+    else {    
+      for (var i = 0; i < data['results'].length; i++) {    
+        var title = data['results'][i]['title'];
+        var description = data['results'][i]['abstract'];      
+        var category = cat;
+        var id = data.results[i].md5id;
+        if (description.length > 400) { description = data['results'][i]['abstract'].substr(0,400) + '...'; }
+        var url = data['results'][i]['url'];        
+        addMarker(data['results'][i]['coordinates'][1],data['results'][i]['coordinates'][0],title,category,description,url,id);
+      }
+    }    
+  }
+  
+
+  function getFoursquareCategory(featureCode) {
+    var category = featureCode.substring(0,featureCode.indexOf(':'));
+    var subCategory = featureCode.substring(featureCode.lastIndexOf(':', featureCode.indexOf(':'))+1);
     
-    google.maps.event.addListener(marker, 'click', function() {
-      for (var i = 0; i < infoBubbles.length; i++) {  
-        //infoWindows[i].close();
-        infoBubbles[i].close();  
-      }      
-      //infoWindow.open(map,marker);
-      infoBubble.open(map, marker);
-    });
-    
-    google.maps.event.addListener(infoBubble, 'closeclick', function () {
-      $('#sidebar .content-row p').removeClass("selected");     
-    });
-    
+    if (category == 'Arts & Entertainment') {
+      return 'e'
+    }    
+    else if (category == 'Nightlife Spots') {
+      return 'n'    
+    }    
+    else if (category == 'Great Outdoors') {
+      var shopping = (subCategory == "Bridges" || subCategory == "Other Great Outdoors" )?"x":"o";    
+      return outdoors
+    }
+    else if (category == 'Shops') {
+      var shopping = (subCategory == "Automotive Shops" || subCategory == "Banks" || subCategory == "Drugstores" || subCategory == "Laundromats" || subCategory == "Paper or Office Supplies Stores"  || subCategory == "Pet Stores"  || subCategory == "Salons or Barbershops"  || subCategory == "Service Shops"  || subCategory == "Post Offices" )?"x":"s";    
+      return shopping
+    }
+    else
+      return 'x'
+  }
+
+  function addMarker(lat,lng,title,category,description,url,id) {
+    if (!markers[id] || markers[id] == null){
+  
+      var myLatlng = new google.maps.LatLng(lat, lng);
+
+      // change to javascript switch statement    
+      if (category == "e") {
+        var restaurantsImage = 'images/entertainment.png';
+      } else if (category == "h") {
+        var restaurantsImage = 'images/historical.png';
+      } else if (category == "n") {
+        var restaurantsImage = 'images/nightlife.png';
+      } else if (category == "o") {
+        var restaurantsImage = 'images/outdoor.png';
+      } else if (category == "r") {
+        var restaurantsImage = 'images/restaurant.png';
+      } else if (category == "s") {
+        var restaurantsImage = 'images/shopping.png';  
+      } else {
+       var restaurantsImage = 'images/historical.png';
+      }
+      
+      // Marker
+      var marker = new google.maps.Marker({
+	      position: myLatlng,
+	      title:title,
+	      icon: restaurantsImage
+      });
+      
+      marker.setMap(map);    
+      //markers.push(marker);      
+      markers[id] = marker;   
+      categories[id] = category;
+      console.log(categories[id]);
+
+      // infoBubble
+      infoDescription = '<div class="infobubble-content"><h3>' + title + '</h3><p>' + description + '</p></div><div class="infobubble-footer"><a href="' + url + '" target="_blank">Read more about this place &raquo;</a></div>';    
+      var infoBubble = new InfoBubble({
+        minWidth:420,
+        maxWidth:420,
+        minHeight:240,
+        maxHeight:240,      
+        padding: 0,
+        backgroundColor: '#ffffff',
+        borderRadius: 8,
+        arrowSize: 10,
+        borderWidth: 1,
+        borderColor: '#dddddd',
+        arrowPosition: 50,
+        shadowStyle: 3,
+        arrowColor: '#f4f4f4',
+        content: infoDescription
+      });  
+      infoBubbles.push(infoBubble);
+
+      // Sidebar content  
+      var contentRow = '<div class="content-row"><p><strong>' + title + '</strong>' + description + '</p></div>';    
+      $(contentRow).appendTo($('#sidebar .recommendations')).children('p').ellipsis().click( function() {
+        for (var i = 0; i < infoBubbles.length; i++) {  
+          infoBubbles[i].close();
+        }      
+        if ( $(this).hasClass('selected') ) {
+          $(this).removeClass('selected');  
+          infoBubble.close();
+        } else {
+          infoBubble.open(map,marker);
+          $('#sidebar .content-row p').removeClass('selected');  
+          $(this).addClass('selected');  
+        }
+      });  
+      contentRows.push(contentRow);
+      
+      google.maps.event.addListener(marker, 'click', function() {
+        for (var i = 0; i < infoBubbles.length; i++) {  
+          infoBubbles[i].close();  
+        }      
+        infoBubble.open(map, marker);
+      });
+      
+      google.maps.event.addListener(infoBubble, 'closeclick', function () {
+        $('#sidebar .content-row p').removeClass("selected");     
+      });  
+    }  
   }
   
 </script>
@@ -222,9 +374,11 @@
 <body>
 
   <div id="header">
-    <div style="padding:0px 20px">
-      I'm visiting<input id="address" class="input" type="textbox" value="Austin, TX"><span style="display:none">from<input id="from" class="input date" value="8/17/2011"></input>to<input id="to" class="input date" value="8/24/2011"></input></span><input id="submit" type="button" value="Create my travel guide" onclick="codeAddress()">
+    <div style="padding:0px 20px 0px 60px">
+      I'm visiting<input id="address" class="input" type="textbox" value="Austin, TX"><span style="display:none">from<input id="from" class="input date" value="08/17/2011"></input>to<input id="to" class="input date" value="08/24/2011"></input></span><input id="submit" class="blue" type="button" value="Create my travel guide" onclick="codeAddress()">
       
+      
+      <a href="http://infochimps.com" target="_blank"><div id="poweredby" style=""></div></a>
     </div>
   </div>
 
@@ -233,20 +387,44 @@
 
   <div id="sidebar">
   
-    <div class="select-container" style="background:#eeeeee;border-bottom:1px solid #d2d1cb;padding:10px;">
+  <div style="display:none">
+    <div class="header">Historical weather</div>
+  
+    <div style="padding:10px 10px 15px 10px;text-shadow:0px 1px 0px white;font-size:13px;color:#767676;line-height:17px;height:50px;">    
+      <div style="float:left;width:140px;">
+        <img src="images/sunny.png" style="width:48px;height:48px;float:left;margin-right:7px"/>
+        <div style="margin:8px 3px 3px 0px;color:#434343;font-weight:bold;font-size:22px;">95&deg; F</div>
+        <span style="color:#767676;font-size:12px;">avg. high</span>
+      </div>
+
+      <div style="float:left;width:140px;">
+        <img src="images/sunny_night.png" style="width:48px;height:48px;float:left;margin-right:2px"/>
+        <div style="margin:8px 3px 3px 0px;color:#434343;font-weight:bold;font-size:22px;">73&deg; F</div>
+        <span style="color:#767676;font-size:12px;">avg. low</span>
+      </div>
+      <div style="clear:left;height:12px;"></div>
+      
+      <!---<p style="color:#565656;font-weight:bold;margin-bottom:6px">For the month of August in Austin TX:</p>
+      <p style="margin-bottom:6px">Average high of 95&deg; F and an average low of 73&deg; F.</p>
+      <p>An average of 2.3 inches of precipitation.</p>--->
+    </div>
+  </div>
+    <div class="header">notable places</div>
+  
+    <div class="select-container" style="border-bottom:1px solid #d2d1cb;padding:10px;border-top:1px solid #ffffff">
     
-      <div id="selector"><span class="text">All recommendations</span><span class="arrow"><img src="http://keepstream.com/images/header/arrow-down.png" style="padding-left:11px;position:relative;top:-1px"/></span></div>
+      <div id="selector" class="blue"><span class="text museums"><span class="icon"></span>Museums</span><span class="arrow"><img src="http://keepstream.com/images/header/arrow-down.png" style="padding-left:11px;position:relative;top:-1px"/></span></div>
     
       <ul id="dropdown" style="display:none">
-        <li class="option entertainment first"><span></span>Entertainment</li>
-        <li class="option museums"><span></span>Museums</li>
-        <li class="option nightlife"><span></span>Nightlife</li>
-        <li class="option outdoors"><span></span>Outdoors</li>        
-        <li class="option restaurants"><span></span>Restaurants</li>
-        <li class="option shopping last"><span></span>Shopping</li>
+        <!---<li class="option entertainment first"><span class="icon"></span>Entertainment</li>-->
+        <li class="option museums first"><span class="icon"></span>Museums</li>
+        <li class="option nightlife"><span class="icon"></span>Nightlife</li>
+        <li class="option outdoors"><span class="icon"></span>Outdoors</li>        
+        <!---<li class="option restaurants"><span class="icon"></span>Restaurants</li>-->
+        <!---<li class="option shopping last"><span class="icon"></span>Shopping</li>-->
       </ul>
     </div>
-    <div class="recommendations"></div>
+    <div class="recommendations" style="border-top:1px solid #ffffff"></div>
   </div>
 
 
